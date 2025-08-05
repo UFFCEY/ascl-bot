@@ -14,7 +14,7 @@ import os
 from dataclasses import dataclass, asdict
 
 # Bot configuration
-BOT_TOKEN = "7572173424:AAFJjSU4Vb0R4lBwhZzKTa0F1gqj0Sm6Vjs"
+BOT_TOKEN = os.getenv('WIZARD_BOT_TOKEN', '')
 
 # Setup logging
 logging.basicConfig(

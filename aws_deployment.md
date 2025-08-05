@@ -283,7 +283,7 @@ resource "aws_lb" "ascl_alb" {
 ### **Production Environment:**
 ```bash
 # Bot Configuration
-BOT_TOKEN=7572173424:AAFJjSU4Vb0R4lBwhZzKTa0F1gqj0Sm6Vjs
+BOT_TOKEN=your_wizard_bot_token_here
 DATABASE_URL=postgresql://ascl_admin:password@ascl-database.region.rds.amazonaws.com:5432/ascl_bot
 REDIS_URL=redis://ascl-redis.region.cache.amazonaws.com:6379
 
