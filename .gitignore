@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Bot-specific files
+bot.log
+api_credentials.json
+preferences.json
+user_instances/
+
+# Personal documentation files
+*_GUIDE.md
+*_COMPLETE.md
+*_STATUS.md
+*_SUMMARY.md
+QUICKSTART.md
+REPOSITORY_STRUCTURE.md
+aws_deployment.md
+host_auth_design.md
+cleanup-repo.sh
+github_setup.py
