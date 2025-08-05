@@ -227,3 +227,27 @@ aws_deployment.md
 host_auth_design.md
 cleanup-repo.sh
 github_setup.py
+
+# Hosting/Deployment files (not for public repo)
+terraform/
+wizard_bot.py
+wizard_requirements.txt
+setup_aws.py
+deploy.py
+host_manager.py
+auth_proxy.py
+scripts/
+run.py
+test_bot.py
+setup.py
+
+# Terraform files
+*.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# AWS and deployment
+.aws/
+terraform.tfvars*

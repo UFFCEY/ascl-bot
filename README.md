@@ -10,18 +10,11 @@
 
 ## 🚀 Quick Start
 
-### Option 1: Instant Setup (Recommended)
-1. **Message [@asclw_bot](https://t.me/asclw_bot)** on Telegram
-2. **Choose "Full Hosting"** for easiest setup
-3. **Enter your phone number** (that's it!)
-4. **Get your AI bot in 2 minutes!**
-
-### Option 2: Self-Hosting (Free)
+### Self-Hosting Setup
 1. **Clone this repository**
 2. **Install dependencies:** `pip install -r requirements.txt`
-3. **Configure `.env`** with your credentials
-4. **Run setup:** `python setup.py`
-5. **Start bot:** `python main.py`
+3. **Configure `.env`** with your credentials (see below)
+4. **Start bot:** `python main.py`
 
 ## ✨ Features
 
@@ -64,35 +57,25 @@ Friend: What do you think about the new iPhone?
 Bot: its pretty good, camera is nice but expensive
 ```
 
-## 💰 Pricing Options
+## 💰 Cost
 
 ### 🆓 **Free Self-Hosting**
 - Download from GitHub
 - Run on your computer
 - Use your own API keys
 - Full features included
+- Only pay for OpenAI API usage (~$5-20/month depending on usage)
 
-### 🚀 **Full Hosting - $24.99/month**
-- **No setup required** - just your phone number!
-- 24/7 hosting on our servers
-- OpenAI API included
-- Instant activation
-- Priority support
-
-### 💎 **Premium - $39.99/month**
-- Everything in Full Hosting
-- Multiple accounts (up to 3)
-- Advanced features
-- Dedicated resources
-
-## 🛠️ Self-Hosting Setup
+## 🛠️ Installation Guide
 
 ### Prerequisites
 - Python 3.8 or higher
 - Telegram API credentials ([get here](https://my.telegram.org/apps))
 - OpenAI API key ([get here](https://platform.openai.com/api-keys))
 
-### Installation
+### Step-by-Step Installation
+
+#### 1. Clone and Setup
 ```bash
 # Clone the repository
 git clone https://github.com/UFFCEY/ascl-bot.git
@@ -100,19 +83,27 @@ cd ascl-bot
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
+#### 2. Configure Environment
+```bash
 # Copy environment template
 cp .env.example .env
 
-# Edit .env with your credentials
+# Edit .env with your credentials (see configuration below)
 nano .env
+```
 
-# Run setup
-python setup.py
-
+#### 3. Start the Bot
+```bash
 # Start the bot
 python main.py
 ```
+
+The bot will:
+- Create a Telegram session on first run
+- Start monitoring your messages
+- Respond based on your configured commands
 
 ### Configuration
 Create a `.env` file with your credentials:
@@ -171,7 +162,6 @@ In **private chats**, skips when:
 
 ## 🤝 Support & Community
 
-- 🤖 **Setup Wizard**: [@asclw_bot](https://t.me/asclw_bot)
 - 💬 **Support**: [@uffcey](https://t.me/uffcey)
 - 📢 **Updates**: [@luareload](https://t.me/luareload)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/UFFCEY/ascl-bot/issues)
